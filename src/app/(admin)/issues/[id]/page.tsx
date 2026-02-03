@@ -143,13 +143,12 @@ export default function IssueDetailsPage() {
                 <div className="space-y-6">
                     {issue.imageUrl && (
                         <div className="overflow-hidden rounded-lg border border-gray-200 dark:border-white/[0.05]">
-                            <Image
+                            <img
                                 src={issue.imageUrl}
                                 alt="Issue Image"
-                                width={600}
-                                height={400}
-                                className="w-full h-auto object-cover"
+                                className="w-full h-auto object-cover rounded-lg"
                             />
+
                         </div>
                     )}
 
